@@ -3,8 +3,8 @@
   <RegistrationInfo>
     <Date>2025-10-21T13:22:18.3421754</Date>
     <Author></Author>
-    <Description>Spegnimento automatico pianificato dal lunedì al venerdì alle 14:00 ed alle 23:00, ed il sabato alle 12:00.</Description>
-    <URI>\AutoShutdown</URI>
+    <Description>Spegnimento automatico pianificato dal lunedì al venerdì alle 14:00 ed alle 23:00, ed il sabato alle 12:00. Automatic shutdown scheduled Monday through Friday at 2:00 PM and 11:00 PM, and Saturday at 12:00 PM.</Description>
+    <URI>SchedAutoShutdown</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
@@ -90,3 +90,4 @@
     </Exec>
   </Actions>
 </Task>
+
