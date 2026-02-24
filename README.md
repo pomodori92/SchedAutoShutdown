@@ -6,8 +6,8 @@
 
 This XML configuration file for the Windows 10/11 Task Scheduler automatically shuts down the computer according to the following schedules:
 
-* Monday to Friday at 2:00 PM and 11:00 PM;
-* Saturday at 12:00 PM.
+* Monday to Sunday at 2:00 PM and 11:00 PM;
+* Saturday and Sunday at 12:00 PM.
 
 ### How it works
 
@@ -19,8 +19,8 @@ It first runs a 5-minute countdown and then forcibly shuts down the computer usi
 
 ### Other features
 
-* Starts the task only if the computer has been idle for 10 minutes.
-* Waits for 10 minutes of idle time.
+* Starts the task only if the computer has been idle for 5 minutes.
+* Waits for 5 minutes of idle time.
 * Stops the task if the computer is no longer idle.
 * Restarts the task if the computer becomes idle again.
 * Wakes the computer to run the task.
@@ -45,8 +45,8 @@ It first runs a 5-minute countdown and then forcibly shuts down the computer usi
 ### Cos'è
 
 Questo file di configurazione in XML per l'Utilità di pianificazione di Windows 10/11 spegne il computer automaticamente in base alle pianificazioni:
-- dal lunedì al venerdì alle 14:00 ed alle 23:00;
-- il sabato alle 12:00.
+- dal lunedì alla domenica alle 14:00 ed alle 23:00;
+- il sabato e la domenica alle 12:00.
 
 ### Come funziona
 
@@ -58,8 +58,8 @@ Prima esegue un conto alla rovescia di 5 minuti e poi spegne forzatamente il com
 
 ### Altre funzioni
 
-- Avvia l'attività solo se il computer è inattivo per 10 minuti.
-- Attende l'inattività per 10 minuti.ù
+- Avvia l'attività solo se il computer è inattivo per 5 minuti.
+- Attende l'inattività per 5 minuti.
 - Interrompe l'attività se il computer non è più inattivo.
 - Riavvia l'attività in caso di ripresa dello stato di inattività.
 - Riattiva il computer per eseguire l'attività.
@@ -77,4 +77,3 @@ Prima esegue un conto alla rovescia di 5 minuti e poi spegne forzatamente il com
 - Selezionare **Importa attività**.
 - Selezionare il file **SchedAutoShutdown.xml**.
 - Cliccare su **Apri**.
-
